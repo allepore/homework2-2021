@@ -3,7 +3,8 @@ my style sheet
 */
 
 body{
-    font-family:"Time New Roman", sans-serif;
+    font-family:"Times New Roman",
+     sans-serif;
     background: #000000;
     color: #ffffff;
 }
@@ -33,6 +34,7 @@ img{
 }
 
 div{
+    min-height: 150px;
     padding: 25px;
 }
 
@@ -67,6 +69,9 @@ div{
 
 footer p {
     text-align: center;
+}
+
+footer {
     padding-bottom: 10px;
     padding-right: 10px;
 }
